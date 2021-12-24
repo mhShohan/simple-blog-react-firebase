@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Glory', sans-serif;
+}
+nav {
+  background: #04293a;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a,
+nav button {
+  text-decoration: none;
+  color: #9145b6;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 10px;
+  border: 1px solid #9145b6;
+  padding: 6px 20px;
+  border-radius: 4px;
+  transition: all ease 0.5s;
+  background: transparent;
+}
+a:hover,
+nav button:hover {
+  background: #9145b6;
+  color: #04293a;
+}
+.App {
+  text-align: center;
+}
+
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.loginBox {
+  width: 300px;
+  height: 100px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+.loginBox p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.loginBox button {
+  padding: 6px 30px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background: cornflowerblue;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.createPostPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.createPostPage form {
+  width: 500px;
+  /* height: 100px; */
+  border: 1px solid gray;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  border-radius: 6px;
+  padding: 30px;
+}
+.createPostPage form h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.createPostPage form div {
+  margin-bottom: 20px;
+}
+.createPostPage form label {
+  font-size: 22px;
+  font-weight: 600;
+}
+.createPostPage form input,
+.createPostPage form textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid gray;
+  font-size: 16px;
+  padding: 6px;
+}
+
+.createPostBtn {
+  padding: 8px 30px;
+  font-size: 20px;
+  background: darkolivegreen;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+.createPostBtn:hover {
+  background: #9145b6;
+}
+.homePage {
+  width: 600px;
+  margin: 0 auto;
+}
+.post {
+  text-align: justify;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.postHeader h2 {
+  flex: 8;
+}
+.postHeader h1 {
+  flex: 1;
+  border: 1px solid gray;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
